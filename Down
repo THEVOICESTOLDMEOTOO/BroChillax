@@ -18,7 +18,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ion
  
                 local Tab = Window:MakeTab({
                     Name = "Down",
-                    Icon = "rbxassetid://7734021118"",
+                    Icon = "rbxassetid://7734021118",
                     PremiumOnly = false
                 })
 
