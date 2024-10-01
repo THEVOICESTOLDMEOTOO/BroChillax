@@ -1,5 +1,5 @@
 local HttpService = game:GetService("HttpService")
-local baseURL = "https://raw.githubusercontent.com/notpoiu/mspaint/main"
+local baseURL = "https://raw.githubusercontent.com/THEVOICESTOLDMEOTOO/BroChillax/main/"
 
 export type gameMapping = {
     exclusions: table?,
