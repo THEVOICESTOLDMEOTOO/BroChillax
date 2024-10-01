@@ -1,4 +1,6 @@
-local HttpService = game:GetService("HttpService")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/THEVOICESTOLDMEOTOO/BroChillax/refs/heads/main/Down"))()
+--[[local HttpService = game:GetService("HttpService")
 local baseURL = "https://raw.githubusercontent.com/THEVOICESTOLDMEOTOO/BroChillax/main/"
 
 export type gameMapping = {
@@ -60,4 +62,4 @@ if mapping.exclusions and mapping.exclusions[tostring(game.PlaceId)] then
     scriptPath = mapping.exclusions[tostring(game.PlaceId)]
 end
 
-loadstring(game:HttpGet(baseURL .. scriptPath))()
+loadstring(game:HttpGet(baseURL .. scriptPath))()]]
