@@ -14,7 +14,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ion
  
  
  
- local Window = OrionLib:MakeWindow({Name = "Angy bob", HidePremium = true, IntroEnabled = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+ local Window = OrionLib:MakeWindow({Name = "Down", HidePremium = true, IntroEnabled = false, SaveConfig = false, ConfigFolder = "OrionTest"})
  
                 local Tab = Window:MakeTab({
                     Name = "Down",
