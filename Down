@@ -1,0 +1,43 @@
+ if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+ 
+ 
+ 
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+ 
+ 
+game:GetService("GuiService"):ClearError()
+ 
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Mobile%20Friendly%20Orion')))()
+ 
+ 
+ 
+ local Window = OrionLib:MakeWindow({Name = "Angy bob", HidePremium = true, IntroEnabled = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+ 
+                local Tab = Window:MakeTab({
+                    Name = "Down",
+                    Icon = "rbxassetid://7734021118"",
+                    PremiumOnly = false
+                })
+
+
+Tab:AddLabel("Hmmm, seems like the script is currently down!")
+Tab:AddLabel("Reason:Maintanance")
+Tab:AddLabel("Please check back in an hour or contact owner if you think this is a mistake")
+Tab:AddLabel("(Contact @wowwwhataloser)")
+ 
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Infinite%20Yield%20but%20with%20secure%20dex'))()
+  	end    
+})
+ 
+Tab:AddButton({
+	Name = "Destroy GUI",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
