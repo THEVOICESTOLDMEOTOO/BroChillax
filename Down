@@ -42,3 +42,18 @@ Tab:AddButton({
       		OrionLib:Destroy()
   	end    
 })
+
+Tab:AddTextbox({
+	Name = "Load anyways (requires dev key)",
+	Default = "",
+	TextDisappear = false,
+	Callback = function(Value)
+
+if Value == "IMLOSINGMYMIND" then
+ print("Script: Access granted!")
+ warn("Script: Things may be buggy and not work!")
+ OrionLib:Destroy()
+end
+
+	end	  
+})
