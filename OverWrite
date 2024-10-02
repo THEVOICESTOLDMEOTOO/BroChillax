@@ -1,4 +1,4 @@
-[[local HttpService = game:GetService("HttpService")
+local HttpService = game:GetService("HttpService")
 local baseURL = "https://raw.githubusercontent.com/THEVOICESTOLDMEOTOO/BroChillax/main/"
 
 export type gameMapping = {
