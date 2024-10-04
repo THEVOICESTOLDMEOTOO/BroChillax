@@ -2604,15 +2604,7 @@ task.spawn(function()
         end
 
 
-        local Hotel_BypassGroupBox = Tabs.Floor:AddLeftGroupbox("Bypass") do
-            Hotel_BypassGroupBox:AddToggle("AvoidRushAmbush", {
-                Text = "Avoid Rush/Ambush (BETA)",
-                Tooltip = "Doesn't work for greenhouse :(",
-                Default = false,
-                Risky = true
-            })
-        end
-								
+							
 
         local Mines_AutomationGroupBox = Tabs.Floor:AddRightGroupbox("Automation") do
             Mines_AutomationGroupBox:AddButton({
